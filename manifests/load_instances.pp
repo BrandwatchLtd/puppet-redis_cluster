@@ -8,6 +8,7 @@
 #
 # Asher256 <asher256@gmail.com>
 # Copyright (c) Asher256
+# URL: https://github.com/Asher256/puppet-redis_cluster
 #
 # === Examples
 #

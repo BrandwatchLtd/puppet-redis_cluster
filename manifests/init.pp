@@ -24,6 +24,7 @@
 #
 # Copyright (c) Asher256
 # Contact: asher256@gmail.com
+# URL: https://github.com/Asher256/puppet-redis_cluster
 #
 # === Examples
 #
