@@ -17,7 +17,7 @@
 class redis_cluster::repos {
   # should be Debian + version 8 (jessie)
   if $::operatingsystem == 'Debian' {
-    if versioncmp($::lsbdistrelease, '8.0') >= 0 && versioncmp($::lsbdistrelease, '9.0') < 0 {
+    if versioncmp($::lsbdistrelease, '8.0') >= 0 and versioncmp($::lsbdistrelease, '9.0') < 0 {
       # install the dotdeb repositories for Debian >= Jessie
       apt::source { 'apt_source_dotdeb':
         location => 'http://packages.dotdeb.org',
